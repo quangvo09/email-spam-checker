@@ -20,7 +20,7 @@ module.exports = function (email) {
 
 function parseEmailDomain(email) {
   const obj = addrs.parseOneAddress(email)
-  if (obj) {
+  if (!obj) {
     return Promise.reject({ type: ERRORS.EMAIL_INVALID });
   }
 
