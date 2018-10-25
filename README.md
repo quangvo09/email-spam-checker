@@ -1,5 +1,7 @@
 # Email Spam Checker
 A wrapper of email validater. It's useful for backend to avoid spam emails.
+- This package use email-addresses(https://www.npmjs.com/package/email-address) to validate email.
+- Using a list of domains for disposable and temporary email addresses (https://gist.github.com/adamloving/4401361) to avoid spam emails.
 
 ## Install
 ```sh
@@ -11,7 +13,7 @@ $ npm install email-spam-checker
 var emailChecker = require('email-spam-checker');
 emailChecker('abc@xyz.com')
   .then(() => {
-      // You give me an valid email ^^
+      // You give me a valid email ^^
   })
   .catch(err => {
       // Email is invalid
