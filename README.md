@@ -3,7 +3,7 @@ A wrapper of email validater. It's useful for backend to avoid spam emails.
 
 ## Install
 ```sh
-$ npm install mysql
+$ npm install email-spam-checker
 ```
 
 ## Usage
