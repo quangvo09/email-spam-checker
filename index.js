@@ -1,12 +1,12 @@
-const addrs = require("email-addresses");
-const checkDomainBlacklist = require('./scripts/checkDomainBlacklist');
+var addrs = require("email-addresses");
+var checkDomainBlacklist = require('./scripts/checkDomainBlacklist');
 
-const ERRORS = {
+var ERRORS = {
   EMAIL_INVALID: "EMAIL_INVALID",
   EMAIL_SPAM: "EMAIL_SPAM"
 }
 
-module.export = (email) => {
+module.exports = function (email) {
   return parseEmailDomain(email)
     .then(({ domain }) => {
       const isSpam = checkDomainBlacklist(domain);
