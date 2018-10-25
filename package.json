@@ -1,6 +1,6 @@
 {
   "name": "email-spam-checker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Determine email spam or not",
   "main": "index.js",
   "scripts": {
