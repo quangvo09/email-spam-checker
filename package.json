@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/quangvo09/email-spam-checker",
+  "repository": "https://github.com/quangvo09/email-spam-checker",
   "keywords": [
     "email-checker",
     "email-spam",
