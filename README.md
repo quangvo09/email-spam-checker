@@ -1,10 +1,4 @@
 # Email Spam Checker
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Node.js Version][node-version-image]][node-version-url]
-[![Linux Build][travis-image]][travis-url]
-[![Windows Build][appveyor-image]][appveyor-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
 
 A wrapper of email validater. It's useful for backend to avoid spam emails.
 - This package uses email-addresses(https://www.npmjs.com/package/email-address) to validate email.
