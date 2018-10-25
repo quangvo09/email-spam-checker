@@ -1,0 +1,19 @@
+{
+  "name": "email-spam-checker",
+  "version": "1.0.0",
+  "description": "Determine email spam or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "email-checker",
+    "email-spam",
+    "email-spam-checker"
+  ],
+  "author": "QuangVo",
+  "license": "ISC",
+  "dependencies": {
+    "email-addresses": "^3.0.2"
+  }
+}
